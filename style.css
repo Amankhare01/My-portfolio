@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.n1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(58, 55, 55);
+    position: sticky;
+    top: 0;
+    opacity: .9;
+}
+.n1 ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.n1 ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.n1 ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.n1 ul li a:hover{
+    background-color: rgb(224, 134, 0);
+    color: black;
+    box-shadow: 0 0 10px rgb(34, 37, 188);
+}
+#Home{
+    display: flex;
+    flex-direction: column;
+    background: rgba(red, green, blue, 0.5);
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+}
+
+#Home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('aman.jpeg') no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: 5;
+}
+.head1{
+    color: white;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    right: 70%;
+    resize: 10%;
+    font-size: 50px;
+    text-shadow: 5px 5px 5px rgb(121, 78, 31);
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+#pic{
+    display: flex;
+}
+#pic img{
+    width: 275px;
+    height: 300px;
+    border-radius: 10px;
+}
+#inro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 20px;;
+}
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.heading1{
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px rgb(175, 77, 8);
+    font-size: 3rem;
+}
+#services {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #services h2 {
+    font-size: 38px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 2px rgb(175, 77, 8);
+  }
+  
+  #service {
+    display: inline-block;
+    width: 30%;
+    margin: 2%;
+    padding: 20px;
+    background-color: #9f8686;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  #service i {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  #service h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  #service p {
+    font-size: 16px;
+  }
+  .c1{
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(175, 77, 8);
+  }
+  #contact{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+   
+  }
+  .div1{
+    width: 100%;
+    position: absolute;
+    border: 1px solid;
+    box-shadow: 10px 10px 10px rgb(67, 67, 67);
+text-align: left;
+padding: 20px;
+
+  }

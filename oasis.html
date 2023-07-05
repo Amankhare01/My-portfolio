@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <nav class="n1">
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact me</a></li>
+        </ul>
+    </nav>
+    <section id="Home">
+        <div class="h1">
+            <h1 class="head1">I AM <br>Aman kharwar</h1>
+        </div>
+    </section>
+    <section id="about">
+            <center><h1 class="heading1"><b>About me</b></h1></center>
+            <fieldset><div id="pic">
+            <img src="aman.jpeg" alt="aman">
+            <div id="intro">
+                <h2>AMAN KHARWAR</h2>
+                <P>I am a 3rd Year Undergraduate student at SRIMT Lucknow pursuing a
+                    Bachelor of Technology majoring in Computer Science and Engineering.<br>
+                    So far, in my experience at SRIMT, I have learned various Computer
+                    Science fundamentals and practical interpersonal skills like teamwork,
+                    networking, and leadership.
+                    </P>
+            </div>
+        </div>
+    </fieldset>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <fieldset>
+        <div id="service">
+          <i class="fas fa-code"></i>
+          <h3>Web Development</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque massa nec mauris malesuada, vitae auctor nisl tincidunt.</p>
+        </div>
+        <div id="service">
+          <i class="fas fa-desktop"></i>
+          <h3>Responsive Design</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque massa nec mauris malesuada, vitae auctor nisl tincidunt.</p>
+        </div>
+        <div id="service">
+          <i class="fas fa-cogs"></i>
+          <h3>Custom Solutions</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque massa nec mauris malesuada, vitae auctor nisl tincidunt.</p>
+        </div>
+    </fieldset>
+      </section>
+      <section id="contact">
+        <h1 class="c1">Contact us</h1>
+        <fieldse class="f1">
+            <div class="div1">
+        <form action="exp.php" onsubmit="return valid()" method="post" name="google-sheet">
+            <label for="name">Full Name</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="phone">Mobile_no</label><br>
+            <input type="tel" id="phone" name="mobile"><br>
+            <label for="email">email</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="gender">gender</label><br>
+            <input type="radio" name="gender">male<br>
+            <input type="radio" name="gender">female<br>
+            <label for="course">Straem</label><br>
+            <select id="course">
+                <option value="1">diploma</option>
+                <option value="2">b-tech</option>
+                <option value="3">mba</option>
+                <option value="4">b-voc</option>
+            </select><br>
+            <input type="submit" value="save" name="submit"><br>
+        </form>
+        </div>
+    </fieldset>
+      </section>
+      
+</body>
+</html>
